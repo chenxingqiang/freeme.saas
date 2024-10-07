@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A90E2"/>
+      <stop offset="100%" stop-color="#50E3C2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+
+  <!-- FreeMe.saas logo and text -->
+  <text x="40" y="80" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">FreeMe.saas</text>
+  <text x="40" y="130" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" opacity="0.8">Prompt, build, agent and deploy</text>
+  <text x="40" y="160" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" opacity="0.8">your SaaS apps freely.</text>
+
+  <!-- Glowing input box -->
+  <rect x="400" y="200" width="360" height="60" rx="10" fill="#ffffff" opacity="0.1" stroke="#ffffff" stroke-width="2"/>
+  <text x="420" y="240" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" opacity="0.7">What do you want to create?</text>
+
+  <!-- Icons -->
+  <circle cx="720" cy="230" r="15" fill="#ffffff" filter="url(#glow)"/>
+  <path d="M715 230 L725 230 M720 225 L720 235" stroke="#4A90E2" stroke-width="2"/>
+
+  <circle cx="680" cy="230" r="15" fill="#ffffff" filter="url(#glow)"/>
+  <path d="M675 228 L685 232 L675 236 Z" fill="#50E3C2"/>
+</svg>
