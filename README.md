@@ -45,10 +45,10 @@ Once your free daily token limit is reached, AI interactions are paused until th
 Yes, Freeme.saas is in beta, and we are actively improving it based on feedback.
 
 **How can I report Freeme.saas issues?**  
-Check out the [Issues section](https://github.com/freeme.saas/issues) to report an issue or request a new feature. Please use the search feature to check if someone else has already submitted the same issue/request.
+Check out the [Issues section](https://github.com/chenxingqiang/freeme.saas/issues) to report an issue or request a new feature. Please use the search feature to check if someone else has already submitted the same issue/request.
 
 **What frameworks/libraries currently work on FreeMe?**  
 Freeme.saas supports most popular javascript frameworks and libraries. If it runs on chenxingqiang, it will run on Freeme.saas as well.
 
 **How can I add make sure my framework/project works well in freeme?**  
-We are excited to work with the javascript ecosystem to improve functionality in FreeMe. Reach out to us via [hello@stackblitz.com](mailto:hello@stackblitz.com) to discuss how we can partner!
+We are excited to work with the javascript ecosystem to improve functionality in FreeMe. Reach out to us via [chen.xingqiang@iechor.com](mailto:chen.xingqiang@iechor.com) to discuss how we can partner!
